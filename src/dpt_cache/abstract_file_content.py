@@ -34,6 +34,12 @@ The abstract file cache defines methods to access cached data.
 
     # pylint: disable=unused-argument
 
+    __slots__ = [ ]
+    """
+python.org: __slots__ reserves space for the declared variables and prevents
+the automatic creation of __dict__ and __weakref__ for each instance.
+    """
+
     def get_from_file(self, file_path_name):
         """
 Get the content for the given file path and name cached.
