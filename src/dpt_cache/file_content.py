@@ -57,7 +57,7 @@ Returns true if the file is not cached or modified.
         """
 
         cache_instance = NamedClassLoader.get_singleton("dpt_cache.Content", False)
-        return (not (isinstance(cache_instance, AbstractFileContent) and cache_instance.is_file_cached(vfs_url)))
+        return (not (isinstance(cache_instance, AbstractFileContent) and cache_instance.is_file_cached(file_path_name)))
     #
 
     @staticmethod
