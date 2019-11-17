@@ -17,8 +17,6 @@ https://www.direct-netware.de/redirect?licenses;mpl2
 #echo(__FILEPATH__)#
 """
 
-from os import path
-
 from dpt_file import File
 from dpt_logging import LogLine
 from dpt_module_loader import NamedClassLoader

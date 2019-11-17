@@ -244,6 +244,8 @@ Get the Content singleton.
 :since:  v1.0.0
         """
 
+        # pylint: disable=not-callable
+
         _return = (None if (Content._weakref_instance is None) else Content._weakref_instance())
 
         if (_return is None):
