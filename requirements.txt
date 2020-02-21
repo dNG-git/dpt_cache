@@ -1,8 +1,8 @@
-git+git://git.direct-netware.de/dpt/file/@v1.0.1#egg=dpt-file
-git+git://git.direct-netware.de/dpt/json/@v1.0.2#egg=dpt-json
-git+git://git.direct-netware.de/dpt/logging/@v1.0.1#egg=dpt-logging
-git+git://git.direct-netware.de/dpt/module_loader/@v1.0.2#egg=dpt-module-loader
-git+git://git.direct-netware.de/dpt/runtime/@v1.0.2#egg=dpt-runtime
-git+git://git.direct-netware.de/dpt/settings/@v1.1.2#egg=dpt-settings
-git+git://git.direct-netware.de/dpt/threading/@v1.0.1#egg=dpt-threading
-git+git://git.direct-netware.de/dpt/vfs/@v1.0.2#egg=dpt-vfs
+dpt-file>=1,<2
+dpt-json>=1,<2
+dpt-logging>=1,<2
+dpt-module-loader>=1,<2
+dpt-runtime>=1,<2
+dpt-settings>=1,<2
+dpt-threading>=1,<2
+dpt-vfs>=1,<2
