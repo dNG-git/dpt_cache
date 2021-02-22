@@ -20,7 +20,7 @@ https://www.direct-netware.de/redirect?licenses;mpl2
 from weakref import ref
 
 from dpt_settings import Settings
-from dpt_threading.thread_lock import ThreadLock
+from dpt_threading import ThreadLock
 from dpt_vfs import Implementation as VfsImplementation
 from dpt_vfs import WatcherImplementation as VfsWatcherImplementation
 

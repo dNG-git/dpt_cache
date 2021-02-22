@@ -19,7 +19,7 @@ https://www.direct-netware.de/redirect?licenses;mpl2
 
 from os import path
 
-from dpt_runtime.not_implemented_exception import NotImplementedException
+from dpt_runtime.exceptions import NotImplementedException
 
 from .abstract_file_content import AbstractFileContent
 

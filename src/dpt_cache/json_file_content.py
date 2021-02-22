@@ -21,7 +21,7 @@ https://www.direct-netware.de/redirect?licenses;mpl2
 
 from dpt_json import JsonResource
 from dpt_logging import LogLine
-from dpt_runtime.value_exception import ValueException
+from dpt_runtime.exceptions import ValueException
 
 from .file_content import FileContent
 
